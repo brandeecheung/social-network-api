@@ -1,0 +1,23 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.1",
+  "description": "social network api",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0",
+    "nodemon": "^2.0.9"
+  },
+  "author": "brandeecheung <brandeedcheung@gmail.com>"
+}
