@@ -29,7 +29,7 @@ module.exports = {
             const user = await User.findOne({ _id: req.params.userId })
                 .populate('thoughts')
                 .populate('friends');
-                // .select('-__v');
+            // .select('-__v');
 
             if (!user) {
                 return res.status(404).json({ message: 'No user with that ID' })
@@ -86,7 +86,7 @@ module.exports = {
                 { _id: req.params.userId },
                 { $push: { friends: req.params.friendId } },
                 { new: true });
-                
+
             if (!user) {
                 return res.status(404).json({ message: 'No user with that ID' });
             }
