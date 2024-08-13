@@ -111,4 +111,4 @@ You can view the full source code for this project on GitHub [here](https://gith
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License. 
