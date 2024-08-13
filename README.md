@@ -22,7 +22,7 @@ To install and run this project locally, follow these steps:
 
 2. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone git@github.com:brandeecheung/social-network-api.git
     cd social-network-api
     ```
 
